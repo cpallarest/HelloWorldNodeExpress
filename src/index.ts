@@ -7,10 +7,6 @@ app.get("/", (req, res)=>{
     res.send("Hola Mundo")
 })
 
-app.get("/bba", (req,res)=>{
-    res.send("Perico palotes");
-})
-
 app.listen(PORT, ()=>{
     return console.log(`App is listening at por: ${PORT}`)
 })
